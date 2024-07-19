@@ -1,0 +1,1001 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+/* ------------------------------------------------------- */
+/* ------------------------- NAV ------------------------- */
+/* ------------------------------------------------------- */
+
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: #6839CC;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav .tracking-order {
+    display: flex;
+}
+
+nav .find-store {
+    display: flex;
+    align-items: center;
+    padding-right: 32px;
+
+}
+
+nav .find-store img {
+    width: 12px;
+    height: 14px;
+    cursor: pointer;
+}
+
+nav .find-store h3 {
+    color: white;
+    font-size: 14.5px;
+    font-weight: 370;
+    font-family: "Rubik", sans-serif;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+nav .order-tracking {
+    display: flex;
+    align-items: center;
+}
+
+nav .order-tracking img {
+    width: 15px;
+    height: 14px;
+}
+
+nav .order-tracking h3 {
+    color: white;
+    font-size: 14.5px;
+    font-weight: 370;
+    font-family: "Rubik", sans-serif;
+    padding-left: 10px;
+}
+
+nav .buy-online {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 260px;
+}
+
+nav .buy-online div {
+    width: 70.93px;
+    height: 26px;
+    font-size: 14px;
+    font-weight: 550;
+    font-family: "Rubik", sans-serif;
+    color: white;
+    background-color: #ff782c;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav .buy-online p {
+    font-size: 14.5px;
+    font-weight: 370;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+
+nav .currency-and-language {
+    padding-top: 8px;
+}
+
+nav .currency-and-language span {
+    font-size: 14.5px;
+    font-weight: 550;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+nav .currency-and-language span i {
+    font-size: 10px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+nav .currency-and-language span:hover{
+    color: #ff782c;
+}
+
+/* ------------------------------------------------------- */
+/* ------------------------- HEADER ---------------------- */
+/* ------------------------------------------------------- */
+
+header {
+    width: 100%;
+    height: 104.67px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    background-color: white;
+}
+
+.ziggy-logo {
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+header ul {
+    display: flex;
+    padding-left: 55px;
+    margin-right: 52px;
+}
+
+header ul li {
+    list-style-type: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 22px;
+    position: relative;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+header ul li a {
+    color: #000000;
+    text-decoration: none;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+header ul li a:hover {
+    color: #ff782c;
+}
+
+
+header ul li:hover {
+    color: #ff782c;
+}
+
+ul li span {
+    color: #ff782c;
+    cursor: pointer;
+}
+
+ul li .underline {
+    width: 77px;
+    border-bottom: #ff782c solid 1.5px;
+    position: absolute;
+    bottom: 16px;
+}
+
+header ul li .fa-angle-down {
+    font-size: 11px;
+    margin: 0 0 3px 7px;
+}
+
+.searchbar {
+    position: relative;
+}
+
+header .searchbar #search-input {
+    width: 280.29px;
+    height: 46.67px;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    padding: 13px 55px 15px 20px;
+    outline: none;
+    border: none;
+    cursor: text;
+    transition: all .3s ease;
+    
+}
+
+header .searchbar #search-input::placeholder {
+    color: #9d9d9d;
+}
+
+header .searchbar #search-input:focus {
+    border: #6839cc 1px solid;
+}
+
+.searchbar button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: #6839cc;
+    border: none;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.searchbar button .fa-magnifying-glass {
+    color: white;
+}
+
+.searchbar button:hover {
+    background-color: #ff782c;
+}
+
+.icon-container {
+    width: 15%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icon-container i {
+    font-size: 20px;
+    padding: 11px;
+    transition: all .2s ease;
+    cursor: pointer;
+
+}
+
+.icon-container i:hover {
+    color: #ff782c;
+}
+
+.icon-container p {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    padding-left: 4px;
+    transition: all .1s ease;
+    cursor: pointer;
+}
+
+.icon-container p:hover {
+    color: #ff782c;
+}
+
+header .notification1 {
+    width: 18px;
+    height: 18px;
+    font-size: 13px;
+    color: white;
+    background-color: #ff782c;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0;
+    right: 90px;
+
+}
+
+header .notification2 {
+    width: 18px;
+    height: 18px;
+    font-size: 13px;
+    color: white;
+    background-color: #ff782c;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0;
+    right: 47px;
+}
+
+/* ------------------------------------------------------- */
+/* -------------------- FIRST SECTION -------------------- */
+/* ------------------------------------------------------- */
+
+.first {
+    width: 100%;
+    height: 158vh;
+    background-color: #F9F4F4;
+    padding: 55px 30px;
+    overflow: hidden;
+}
+
+.first .beginning-title {
+    display: flex;
+}
+
+.first .beginning-title h2 {
+    font-size: 32px;
+    font-weight: 660;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    padding-right: 96.6px;
+    line-height: 42px;
+}
+
+.first .beginning-title p {
+    font-size: 15px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    padding-top: 8px;
+    line-height: 26px;
+}
+
+.first .site-information {
+    display: flex;
+    margin-top: 50px;
+}
+
+.first .site-information .address {
+    margin-right: 180px;
+}
+
+.first .site-information .address .address-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.first .site-information .address .address-title img {
+    width: 17.5px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.first .site-information .address .address-title span {
+    font-size: 14px;
+    font-weight: 650;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+}
+
+.first .site-information .address p {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    letter-spacing: 0.125px;
+}
+
+
+
+.first .site-information .call-us {
+    margin-right: 130px;
+}
+
+.first .site-information .call-us .call-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.first .site-information .call-us .call-title img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.first .site-information .call-us .call-title span {
+    font-size: 14px;
+    font-weight: 650;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+}
+
+.first .site-information .call-us p {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    letter-spacing: 0.125px;
+}
+
+
+
+.first .site-information .openning {
+    margin-right: 110px;
+}
+
+.first .site-information .openning .openning-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.first .site-information .openning .openning-title img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.first .site-information .openning .openning-title span {
+    font-size: 14px;
+    font-weight: 650;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+}
+
+.first .site-information .openning p {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    letter-spacing: 0.125px;
+}
+
+
+
+.first .site-information .contact .contact-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.first .site-information .contact .contact-title img {
+    width: 22.1px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.first .site-information .contact .contact-title span {
+    font-size: 14px;
+    font-weight: 650;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+}
+
+.first .site-information .contact p {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    letter-spacing: 0.125px;
+}
+
+/* ------------------------------------------------------- */
+/* -------------------- QUESTIONS FORM ------------------- */
+/* ------------------------------------------------------- */
+
+.first .questions-form {
+    width: 1203px;
+    height: 605.88px;
+    background-color: white;
+    margin-top: 80px;
+    border-radius: 4px;
+    box-shadow: 0 5px 50px 0 rgba(0, 0, 0, .1);
+    padding: 60px 60px 60px 66px;
+    position: relative;
+}
+
+.first .questions-form h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 20px;
+}
+
+.first .questions-form p {
+    font-size: 15px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 25px;
+}
+
+.first .questions-form .inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.first .questions-form .inputs #name-input {
+    width: 519.26px;
+    height: 48.67px;
+    font-size: 15px;
+    font-weight: 360;
+    font-family: "Rubik", sans-serif;
+    padding: 16px 30px;
+    margin-bottom: 34px;
+    border: #e5e5e5 1px solid;
+    border-radius: 4px;
+    outline: none;
+    cursor: text;
+}
+
+.first .questions-form .inputs #email-input {
+    width: 519.26px;
+    height: 48.67px;
+    font-size: 15px;
+    font-weight: 360;
+    font-family: "Rubik", sans-serif;
+    padding: 16px 30px;
+    margin-bottom: 34px;
+    border: #e5e5e5 1px solid;
+    border-radius: 4px;
+    outline: none;
+    cursor: text;
+}
+
+.first .questions-form .inputs #text-area {
+    width: 519.26px;
+    height: 127.33px;
+    font-size: 15px;
+    font-weight: 360;
+    font-family: "Rubik", sans-serif;
+    padding: 15px 30px;
+    margin-bottom: 34px;
+    border: #e5e5e5 1px solid;
+    border-radius: 4px;
+    resize: none;
+    outline: none;
+    line-height: 24px;
+    cursor: text;
+}
+
+.first .questions-form .inputs #name-input:focus {
+    border-color: #6839cc;
+}
+
+.first .questions-form .inputs #email-input:focus {
+    border-color: #6839cc;
+}
+
+.first .questions-form .inputs #text-area:focus {
+    border-color: #6839cc;
+}
+
+.first .shop-now {
+    width: 217.76px;
+    height: 55.21px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #6839cc;
+    font-family: "Rubik", sans-serif;
+    border-radius: 50px;
+    border: none;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.first .shop-now i {
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 4px;
+    margin-left: 10px;
+    padding-top: 7px;
+    transition: all .3s ease;
+}
+
+.first .shop-now:hover {
+    background-color: #7D44F5;
+}
+
+.first .shop-now:hover i {
+    color: white;
+    background-color: #ff782c;
+    transform: translateX(10px);
+}
+
+iframe {
+    position: absolute;
+    top: 56px;
+    right: 60px;
+}
+
+/* -------------------------------------------------------- */
+/* ------------------------ FOOTER ------------------------ */
+/* -------------------------------------------------------- */
+
+footer {
+    width: 100%;
+    height: 80.7vh;
+    padding: 90px 30px 40px;
+    border-top: #E5E5E5 dashed 1px;
+    cursor: default;
+}
+
+.footer-top {
+    display: flex;
+}
+
+.footer-middle {
+    display: flex;
+    width: auto;
+}
+
+footer .footer-top .footer-first {
+    width: 335.64px;
+}
+
+footer .footer-top .footer-first .footer-ziggy-logo {
+    margin-bottom: 20px;
+}
+
+footer .footer-top .footer-first p {
+    font-size: 15px;
+    font-weight: 350;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-bottom: 20px;
+}
+
+footer .footer-top .footer-first .hotline-order .phonecall-icon {
+    width: 18.95px;
+    height: 18.95px;
+}
+
+footer .footer-top .footer-first .hotline-order span {
+    font-size: 14px;
+    font-weight: 650;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    padding-left: 10px;
+
+}
+
+footer .footer-top .footer-first .hotline-order {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+footer .footer-top .footer-first h2 {
+    font-size: 19px;
+    font-weight: 660;
+    color: #ff782c;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 25px;
+}
+
+footer .footer-top .footer-first .social-apps {
+    display: flex;
+}
+
+footer .footer-top .footer-first .social-apps .social-link {
+    font-size: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #000000;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    transition: all .2s ease;
+}
+
+footer .footer-top .footer-first .social-apps .social-link:hover {
+    color: white;
+    background-color: #6839CC;
+}
+
+/* -------------------------------------------------------- */
+/* ------------------ FOOTER MIDDLE FIRST ----------------- */
+/* -------------------------------------------------------- */
+
+footer .footer-top .footer-middle .middle-first {
+    width: 196.08px;
+    padding: 0 20px;
+}
+
+footer .footer-top .footer-middle .middle-first h2 {
+    font-size: 14.5px;
+    font-weight: 680;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 32px;
+}
+
+footer .footer-top .footer-middle .middle-first p {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+footer .footer-top .footer-middle .middle-first p:hover {
+    color: #ff782c;
+}
+
+/* -------------------------------------------------------- */
+/* ------------------ FOOTER MIDDLE MID ------------------- */
+/* -------------------------------------------------------- */
+
+footer .footer-top .footer-middle .middle-mid {
+    width: 196.08px;
+    padding: 0 20px;
+}
+
+footer .footer-top .footer-middle .middle-mid h2 {
+    font-size: 14.5px;
+    font-weight: 680;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 32px;
+}
+
+footer .footer-top .footer-middle .middle-mid p {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+footer .footer-top .footer-middle .middle-mid p:hover {
+    color: #ff782c;
+}
+
+/* -------------------------------------------------------- */
+/* ------------------ FOOTER MIDDLE LAST ------------------ */
+/* -------------------------------------------------------- */
+
+footer .footer-top .footer-middle .middle-last {
+    width: 144.35px;
+    padding: 0 20px;
+}
+
+footer .footer-top .footer-middle .middle-last h2 {
+    font-size: 14.5px;
+    font-weight: 650;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 32px;
+}
+
+footer .footer-top .footer-middle .middle-last p {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+footer .footer-top .footer-middle .middle-last p:hover {
+    color: #ff782c;
+}
+
+/* -------------------------------------------------------- */
+/* ---------------------- FOOTER LAST --------------------- */
+/* -------------------------------------------------------- */
+
+footer .footer-top .footer-last {
+    padding-left: 20px;
+}
+
+footer .footer-top .footer-last h2 {
+    font-size: 14.5px;
+    font-weight: 650;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 25px;
+}
+
+footer .footer-top .footer-last p {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-bottom: 15px;
+}
+
+footer .footer-top .footer-last p span {
+    color: #ff782c;
+}
+
+.searchbar {
+    position: relative;
+}
+
+footer .footer-top .footer-last .searchbar input {
+    width: 313.45px;
+    height: 45.33px;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    margin-bottom: 22px;
+}
+
+footer .footer-top .footer-last .searchbar input::placeholder {
+    color: #9d9d9d;
+}
+
+footer .footer-top .footer-last .searchbar button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: #6839cc;
+    border: none;
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+footer .footer-top .footer-last .searchbar button i {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer .footer-top .footer-last .searchbar button:hover {
+    background-color: #ff782c;
+}
+
+footer .footer-top .footer-last .searchbar input:hover {
+    border: #6839cc solid 1px;
+}
+
+footer .footer-top .footer-last .download-app img {
+    width: 14.38px;
+    height: 22.67px;
+}
+
+footer .footer-top .footer-last .download-app span {
+    font-size: 14px;
+    font-weight: 650;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    padding-left: 18px;
+}
+
+footer .footer-top .footer-last .download-app {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    margin-bottom: 22px;
+}
+
+footer .footer-top .footer-last .download-stores {
+    display: flex;
+}
+
+footer .footer-top .footer-last .download-stores img {
+    margin-right: 10px;
+}
+
+/* ------------------------------------------------------- */
+/* -------------------- FOOTER BOTTOM -------------------- */
+/* ------------------------------------------------------- */
+
+.footer-bottom {
+    width: 1203px;
+    height: 67px;
+    display: flex;
+    align-items: flex-end;
+    border-top: #E5E5E5 dashed 1px;
+    margin-top: 55px;
+}
+
+.footer-bottom h6 {
+    font-size: 12.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    display: flex;
+}
+
+.footer-bottom h6 a {
+    color: #000000;
+    transition: all .2s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-bottom h6 i {
+    color: #000000;
+    font-size: 18px;
+    opacity: 0.8;
+    margin: 2px 4px 0;
+}
+
+.footer-bottom h6 a:hover {
+    color: #ff782c;
+}
+
+.footer-bottom img {
+    margin: 0 115px;
+}
+
+.footer-bottom .terms-and-service {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 70px;
+}
+
+.footer-bottom .terms-and-service .privacy {
+    font-size: 12.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-right: 8px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.footer-bottom .terms-and-service .privacy:hover {
+    color: #ff782c;
+}
+
+.footer-bottom .terms-and-service .terms {
+    font-size: 12.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-left: 8px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.footer-bottom .terms-and-service .terms:hover {
+    color: #ff782c;
+}
+
+.footer-bottom .terms-and-service div {
+    width: 1px;
+    height: 12px;
+    background-color: #e5e5e5;
+}
+
+.footer-bottom .bottom-container {
+    display: flex;
+    align-items: center;
+}

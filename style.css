@@ -1,0 +1,2372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+/* ------------------------------------------------------- */
+/* ----------------------- HEADER ------------------------ */
+/* ------------------------------------------------------- */
+
+header {
+    width: 100%;
+    height: 18.77vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+
+
+}
+
+.ziggy-logo {
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style-type: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+    position: relative;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+header ul li a {
+    color: #000000;
+    text-decoration: none;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+header ul li a:hover {
+    color: #ff782c;
+}
+
+
+header ul li:hover {
+    color: #ff782c;
+}
+
+ul li span {
+    color: #ff782c;
+}
+
+ul li .underline {
+    width: 40px;
+    border-bottom: #ff782c solid 1.5px;
+    position: absolute;
+    bottom: 16px;
+}
+
+.fa-angle-down {
+    font-size: 11px;
+    margin: 0 0 3px 7px;
+}
+
+
+
+.searchbar {
+    position: relative;
+}
+
+header input {
+    width: 294px;
+    height: 48px;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    padding: 13px 55px 15px 20px;
+    outline: none;
+    border: none;
+    margin-left: 90px;
+    transition: all .3s ease;
+    cursor: text;
+}
+
+header input::placeholder {
+    color: #9d9d9d;
+}
+
+header input:focus {
+    border: #6839cc solid 1px;
+}
+
+.searchbar button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: #6839cc;
+    border: none;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.searchbar button .fa-magnifying-glass {
+    color: white;
+}
+
+.searchbar button:hover {
+    background-color: #ff782c;
+}
+
+.icon-container {
+    width: 16.5%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icon-container i {
+    font-size: 20px;
+    padding: 11px;
+    transition: all .2s ease;
+    cursor: pointer;
+
+}
+
+.icon-container i:hover {
+    color: #ff782c;
+}
+
+.icon-container p {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    padding-left: 4px;
+    transition: all .1s ease;
+    cursor: pointer;
+}
+
+.icon-container p:hover {
+    color: #ff782c;
+}
+
+header .notification1 {
+    width: 18px;
+    height: 18px;
+    font-size: 13px;
+    color: white;
+    background-color: #ff782c;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0;
+    right: 90px;
+
+}
+
+header .notification2 {
+    width: 18px;
+    height: 18px;
+    font-size: 13px;
+    color: white;
+    background-color: #ff782c;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0;
+    right: 47px;
+
+}
+
+/* ------------------------------------------------------- */
+/* ------------------------ FIRST ------------------------ */
+/* ------------------------------------------------------- */
+
+.first {
+    width: 100%;
+    height: 105vh;
+    background-image: url('https://demo2.themelexus.com/ziggy/wp-content/uploads/2022/05/rev_home4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: default;
+}
+
+.first h6 {
+    font-size: 14px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: "Rubik", sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 23px;
+}
+
+.first .first-off h6 span {
+    font-size: 32px;
+    font-family: "Rubik", sans-serif;
+}
+
+.orange-paint1 {
+    width: 254px;
+    height: 69px;
+}
+
+.first .first-off {
+    width: 254px;
+    height: 69px;
+    position: relative;
+}
+
+.first .first-h1 {
+    font-size: 60px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+}
+
+.first .first-p {
+    font-size: 21px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding: 14px 0 48px 0;
+
+}
+
+.txt-first {
+    padding: 60px 30px;
+}
+
+.first .shop-now {
+    width: 173.5px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #6839cc;
+    font-family: "Rubik", sans-serif;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.first .shop-now i {
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding-top: 7px;
+    transition: all .3s ease;
+}
+
+.first .shop-now:hover {
+    background-color: #7D44F5;
+}
+
+.first .shop-now:hover i {
+    color: white;
+    background-color: #ff782c;
+    transform: translateX(15px);
+}
+
+.slider-container .circle {
+    width: 8px;
+    height: 8px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.slider-container .diff-circle {
+    width: 8px;
+    height: 8px;
+    background-color: #ff782c;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.slider-container {
+    padding-top: 62px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-container .circle:hover {
+    background-color: #ff782c;
+}
+
+/* -------------------------------------------------------- */
+/* ------------------------ SECOND ------------------------ */
+/* -------------------------------------------------------- */
+
+.second {
+    width: 100%;
+    height: 20vh;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.second .product-icon {
+    width: 16%;
+    height: 48px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.second .product-icon p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.second-boxes {
+    width: 1203px;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #E5E5E5 dashed 1px;
+    border-radius: 5px;
+}
+
+/* -------------------------------------------------------- */
+/* ------------------------- THIRD ------------------------ */
+/* -------------------------------------------------------- */
+
+.third {
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    cursor: default;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.category-picker {
+    display: flex;
+}
+
+.third .browse-categories {
+    font-size: 32px;
+    font-weight: 690;
+    font-family: "Rubik", sans-serif;
+    padding-left: 30px;
+    margin-top: 12px;
+}
+
+.first-dogpaw-icon {
+    width: 40px;
+    position: absolute;
+    top: 0;
+    left: 363px;
+}
+
+.third .page-btns {
+    display: flex;
+    justify-content: flex-end;
+    width: 68%;
+    margin-top: 12px;
+}
+
+.page-left {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: #E5E5E5 solid 1px;
+    border-radius: 50%;
+    font-size: 13.2px;
+    margin-right: 2px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.page-right {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: #E5E5E5 solid 1px;
+    border-radius: 50%;
+    font-size: 13.2px;
+    margin-left: 2px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.x:hover {
+    color: white;
+    background-color: #ff782c;
+}
+
+.third .category-boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.third .category-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    box-shadow: rgba(100, 100, 100, 0.3) 0px 3px 29px 0px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.category p {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.third .category-container img:hover {
+    border: #ff782c dashed 1px;
+}
+
+.third .category:hover p {
+    color: #ff782c;
+}
+
+/* -------------------------------------------------------- */
+/* -------------------- FOURTH SECTION -------------------- */
+/* -------------------------------------------------------- */
+
+.fourth {
+    width: 100%;
+    height: 64vh;
+    position: relative;
+}
+
+.fourth .pet-offers {
+    font-size: 32px;
+    font-weight: 660;
+    font-family: "Rubik", sans-serif;
+    padding-left: 30px;
+}
+
+.second-dogpaw-icon {
+    width: 40px;
+    position: absolute;
+    top: -14;
+    left: 224px;
+}
+
+.pet-adboxes {
+    display: flex;
+    margin-top: 35px;
+}
+
+/* -------------------------------------------------------- */
+/* ----------------------- PET BOX 1 ---------------------- */
+/* -------------------------------------------------------- */
+
+.pet-adboxes .pet-box1 {
+    width: 22%;
+    height: 260px;
+    background-image: url('https://demo2.themelexus.com/ziggy/wp-content/uploads/2022/05/home4_img-1.jpg');
+    background-position: center;
+    margin-left: 30px;
+    margin-right: 15px;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.pet-adboxes .pet-box1 p {
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.pet-adboxes .pet-box1 h3 {
+    font-size: 64px;
+    color: white;
+    font-weight: 640;
+    font-family: "Rubik", sans-serif;
+}
+
+.pet-adboxes .pet-box1 h4 {
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 14px;
+}
+
+.pet-adboxes .pet-box1 .shop-now {
+    width: 130px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #6839cc;
+    font-family: "Rubik", sans-serif;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.pet-adboxes .pet-box1 .shop-now i {
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding-top: 7px;
+    transition: all .3s ease;
+}
+
+.pet-adboxes .pet-box1 .shop-now:hover {
+    background-color: #7D44F5;
+}
+
+.pet-adboxes .pet-box1 .shop-now:hover i {
+    color: white;
+    background-color: #ff782c;
+    transform: translateX(5px);
+}
+
+.pet-adboxes .pet-box1 div {
+    padding: 40px 15px 10px 40px;
+}
+
+.pet-adboxes .pet-box1:hover {
+    background-position: -70px;
+}
+
+/* -------------------------------------------------------- */
+/* ---------------------- PET BOX 2 ----------------------- */
+/* -------------------------------------------------------- */
+
+.pet-adboxes .pet-box2 {
+    width: 22%;
+    height: 260px;
+    background-image: url('https://demo2.themelexus.com/ziggy/wp-content/uploads/2022/05/home4_img-2.jpg');
+    background-position: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding: 38px 15px 10px 40px;
+    transition: all .3s ease;
+}
+
+.pet-adboxes .pet-box2 div div {
+    display: flex;
+}
+
+.pet-adboxes .pet-box2 div div span {
+    font-size: 32px;
+    color: white;
+    font-weight: 650;
+    margin-right: 3px;
+    margin-bottom: 7px;
+    font-family: "Rubik", sans-serif;
+}
+
+.pet-adboxes .pet-box2 div div p {
+    font-size: 12px;
+    color: white;
+    text-decoration: underline;
+    font-family: "Rubik", sans-serif;
+    margin-top: 15px;
+}
+
+.pet-adboxes .pet-box2 div h3 {
+    font-size: 20px;
+    color: white;
+    line-height: 28px;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 57px;
+}
+
+.pet-adboxes .pet-box2 div h6 {
+    font-size: 14px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+
+.pet-adboxes .pet-box2:hover {
+    background-position: -70px;
+}
+
+/* -------------------------------------------------------- */
+/* ---------------------- PET BOX 3 ----------------------- */
+/* -------------------------------------------------------- */
+
+.pet-adboxes .pet-box3 {
+    width: 22%;
+    height: 260px;
+    background-image: url('https://demo2.themelexus.com/ziggy/wp-content/uploads/2022/05/home4_img-3.jpg');
+    background-position: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding: 40px 15px 10px 40px;
+    transition: all .3s ease;
+}
+
+.pet-adboxes .pet-box3 div span {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    word-spacing: 5px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.pet-adboxes .pet-box3 div h3 {
+    font-size: 32px;
+    font-weight: 650;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.pet-adboxes .pet-box3 div p {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 55px;
+}
+
+.pet-adboxes .pet-box3 .shop-now {
+    width: 130px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #6839cc;
+    font-family: "Rubik", sans-serif;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.pet-adboxes .pet-box3 .shop-now i {
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding-top: 7px;
+    transition: all .3s ease;
+}
+
+.pet-adboxes .pet-box3 .shop-now:hover {
+    background-color: #7D44F5;
+}
+
+.pet-adboxes .pet-box3 .shop-now:hover i {
+    color: white;
+    background-color: #ff782c;
+    transform: translateX(5px);
+}
+
+.pet-adboxes .pet-box3:hover {
+    background-position: -70px;
+}
+
+/* -------------------------------------------------------- */
+/* ----------------------- PET BOX 4 ---------------------- */
+/* -------------------------------------------------------- */
+
+.pet-adboxes .pet-box4 {
+    width: 22%;
+    height: 260px;
+    background-image: url('https://demo2.themelexus.com/ziggy/wp-content/uploads/2022/05/home4_img-4.jpg');
+    background-position: center;
+    margin-left: 15px;
+    margin-right: 30px;
+    border-radius: 5px;
+    padding: 30px 15px 10px 40px;
+    transition: all .3s ease;
+}
+
+.pet-adboxes .pet-box4 div div {
+    display: flex;
+    font-size: 15px;
+}
+
+.pet-adboxes .pet-box4 div h1 {
+    font-size: 64px;
+    font-weight: 640;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.pet-adboxes .pet-box4 div h3 {
+    font-size: 20px;
+    font-weight: 650;
+    color: white;
+    line-height: 28px;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 40px;
+    margin-top: -8px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.pet-adboxes .pet-box4 div div p {
+    color: white;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    margin-right: 4px;
+}
+
+.pet-adboxes .pet-box4 div div span {
+    color: white;
+    font-weight: 660;
+    font-family: "Rubik", sans-serif;
+}
+
+.pet-adboxes .pet-box4:hover {
+    background-position: -70px;
+}
+
+/* -------------------------------------------------------- */
+/* ----------------- FIFTH SECTION PART 1 ----------------- */
+/* -------------------------------------------------------- */
+
+.fifth {
+    width: 100%;
+    height: 152.5vh;
+    position: relative;
+    cursor: default;
+    overflow: hidden;
+}
+
+.fifth .trending-week {
+    width: 63.5%;
+    font-size: 32px;
+    font-weight: 660;
+    font-family: "Rubik", sans-serif;
+    padding-left: 30px;
+    margin-top: 12px;
+}
+
+.fifth .third-dogpaw-icon {
+    width: 40px;
+    position: absolute;
+    top: 0;
+    left: 316px;
+}
+
+.fifth .fifth-product-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+.fifth .trending-start {
+    display: flex;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.fifth .trending-start .product-btns {
+    margin-top: 12px;
+}
+
+.all-items-btn {
+    width: 96.42px;
+    height: 38px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    background-color: #6839cc;
+    border-radius: 50px;
+    border: none;
+    margin-left: 10px;
+
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.sales-btn {
+    width: 75.14px;
+    height: 38px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    margin-left: 10px;
+
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.featured-btn {
+    width: 99.61px;
+    height: 38px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    margin-left: 10px;
+
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.best-seller-btn {
+    width: 109.59px;
+    height: 38px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    margin-left: 10px;
+
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.sales-btn:hover {
+    background-color: #6839cc;
+    font-weight: 600;
+    color: white;
+}
+
+.featured-btn:hover {
+    background-color: #6839cc;
+    font-weight: 600;
+    color: white;
+}
+
+.best-seller-btn:hover {
+    background-color: #6839cc;
+    font-weight: 600;
+    color: white;
+}
+
+.fifth .fifth-product-boxes .product-box .discount-box {
+    width: 34%;
+    height: 24px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    background-color: #FF004C;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 11px;
+
+    position: absolute;
+    top: 11px;
+    left: 11px;
+}
+
+.fifth .fifth-product-boxes .product-box img {
+    border: #E5E5E5 dashed 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.fifth .fifth-product-boxes .product-box {
+    width: 14.075%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    margin-bottom: 40px;
+}
+
+.fifth .fifth-product-boxes .product-box .product-discount {
+    display: flex;
+}
+
+.fifth .fifth-product-boxes .product-box p {
+    font-size: 16px;
+    font-weight: 650;
+    color: #6839cc;
+    font-family: "Rubik", sans-serif;
+    padding-top: 16px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+}
+
+.fifth .fifth-product-boxes .product-box h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    font-family: "Rubik", sans-serif;
+    padding-top: 17px;
+    text-decoration: line-through;
+}
+
+.fifth .fifth-product-boxes .product-box h3 {
+    font-size: 14.5px;
+    font-weight: 350;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 8px;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.fifth .fifth-product-boxes .product-box div i {
+    font-size: 12px;
+    color: #FFCB45;
+    margin-right: -2px;
+
+}
+
+.fifth .fifth-product-boxes .product-box div span {
+    font-size: 12px;
+    font-weight: 370;
+    color: #999999;
+    font-family: "Rubik", sans-serif;
+    margin-left: 6px;
+}
+
+.fifth .fifth-product-boxes .product-box img:hover {
+    border: #ff782c dashed 1px;
+}
+
+.fifth .fifth-product-boxes .product-box h3:hover {
+    color: #ff782c;
+}
+
+/* -------------------------------------------------------- */
+/* ----------------- FIFTH SECTION PART 2 ----------------- */
+/* -------------------------------------------------------- */
+
+.fifth .long-pet-advetisement1 {
+    width: 586.5px;
+    height: 260px;
+    background-image: url('https://demo2.themelexus.com/ziggy/wp-content/uploads/2022/05/home4_img-5.jpg');
+    background-position: center;
+    border-radius: 4px;
+    margin-right: 15px;
+    padding: 30px 15px 10px 40px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.fifth .long-ad-container {
+    display: flex;
+    padding: 20px 30px 0 30px;
+}
+
+.fifth .long-ad-container .long-pet-advetisement1 h3 {
+    font-size: 32px;
+    font-weight: 650;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    line-height: 40px;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.fifth .long-ad-container .long-pet-advetisement1 p {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 45px;
+    word-spacing: 0.25px;
+}
+
+.fifth .long-ad-container .long-pet-advetisement1 .shop-now {
+    width: 130px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #6839cc;
+    font-family: "Rubik", sans-serif;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.fifth .long-ad-container .long-pet-advetisement1 .shop-now i {
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding-top: 7px;
+    transition: all .3s ease;
+}
+
+.fifth .long-ad-container .long-pet-advetisement1 .shop-now:hover {
+    background-color: #7D44F5;
+}
+
+.fifth .long-ad-container .long-pet-advetisement1 .shop-now:hover i {
+    color: white;
+    background-color: #ff782c;
+    transform: translateX(5px);
+}
+
+.fifth .long-pet-advetisement1:hover {
+    background-position-x: -125px;
+}
+
+
+
+.fifth .long-pet-advetisement2 {
+    width: 586.5px;
+    height: 260px;
+    background-image: url('https://demo2.themelexus.com/ziggy/wp-content/uploads/2022/05/home4_img-6.jpg');
+    background-position: center;
+    border-radius: 4px;
+    margin-left: 15px;
+    padding: 30px 15px 10px 40px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.fifth .long-ad-container .long-pet-advetisement2 h3 {
+    font-size: 32px;
+    font-weight: 650;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.fifth .long-ad-container .long-pet-advetisement2 p {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 50px;
+    word-spacing: 0.25px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.fifth .long-ad-container .long-pet-advetisement2 div {
+    width: 250px;
+    height: 75px;
+    background-image: url('https://demo2.themelexus.com/ziggy/wp-content/uploads/2022/05/home4_png-1.png');
+    background-repeat: no-repeat;
+    padding: 7.5px 15px 15px 20px;
+    font-size: 14px;
+    font-weight: 650;
+    line-height: 27.5px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    letter-spacing: 0.25px;
+}
+
+.fifth .long-ad-container .long-pet-advetisement2 div span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff782c;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.fifth .long-pet-advetisement2:hover {
+    background-position-x: -125px;
+}
+
+/* -------------------------------------------------------- */
+/* --------------------- SIXTH SECTION -------------------- */
+/* -------------------------------------------------------- */
+
+.sixth {
+    width: 100%;
+    height: 100vh;
+    background-color: #ede0e0;
+    background-image: url('https://demo2.themelexus.com/ziggy/wp-content/uploads/2022/06/home4_png-2.png');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    padding: 120px 30px 150px;
+    cursor: default;
+}
+
+.sixth .sixth-container img {
+    width: 777.47px;
+    height: 380.52px;
+    padding-left: 15px;
+}
+
+.sixth .sixth-container {
+    display: flex;
+}
+
+.sixth .sixth-container .img-extras {
+    position: relative;
+}
+
+.sixth .sixth-container .plus-btn1 {
+    width: 36px;
+    height: 36px;
+    font-size: 12px;
+    color: white;
+    background-color: #ff782c;
+    box-shadow: 0 0 0 6px rgba(255, 120, 44, 0.4);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 153px;
+    left: 111px;
+    cursor: pointer;
+}
+
+.sixth .sixth-container .plus-btn2 {
+    width: 36px;
+    height: 36px;
+    font-size: 12px;
+    color: white;
+    background-color: #ff782c;
+    box-shadow: 0 0 0 6px rgba(255, 120, 44, 0.4);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 270px;
+    cursor: pointer;
+}
+
+.sixth .sixth-container .plus-btn3 {
+    width: 36px;
+    height: 36px;
+    font-size: 12px;
+    color: white;
+    background-color: #ff782c;
+    box-shadow: 0 0 0 6px rgba(255, 120, 44, 0.4);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 196px;
+    right: 105px;
+    cursor: pointer;
+}
+
+.sixth .sixth-container div span {
+    font-size: 15px;
+    font-weight: 650;
+    color: #ff782c;
+    font-family: "Rubik", sans-serif;
+    letter-spacing: 1.25px;
+}
+
+.sixth .sixth-container div h2 {
+    font-size: 53.75px;
+    font-weight: 700;
+    color: #19063c;
+    line-height: 66px;
+    font-family: "Rubik", sans-serif;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sixth .sixth-container div p {
+    font-size: 14.5px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 26px;
+    letter-spacing: 0.125px;
+    word-spacing: 0.0625px;
+    margin-bottom: 50px;
+}
+
+.sixth .shop-now {
+    width: 173.5px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #6839cc;
+    font-family: "Rubik", sans-serif;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.sixth .shop-now i {
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding-top: 7px;
+    transition: all .3s ease;
+}
+
+.sixth .shop-now:hover {
+    background-color: #7D44F5;
+}
+
+.sixth .shop-now:hover i {
+    color: white;
+    background-color: #ff782c;
+    transform: translateX(15px);
+}
+
+/* -------------------------------------------------------- */
+/* ---------------- SEVENTH SECTION PART 1 ---------------- */
+/* -------------------------------------------------------- */
+
+.seventh {
+    width: 100%;
+    height: 152vh;
+    position: relative;
+    cursor: default;
+    padding: 0 15px 0;
+    overflow: hidden;
+}
+
+.seventh .best-selling-for-dog {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+
+.seventh .best-for-dog {
+    font-size: 32px;
+    font-weight: 690;
+    font-family: "Rubik", sans-serif;
+    padding-left: 15px;
+}
+
+.seventh .best-selling-for-dog .fourth-dogpaw-icon {
+    width: 40px;
+    position: absolute;
+    top: 88px;
+    left: 332px;
+}
+
+.seventh .page-btns {
+    display: flex;
+    justify-content: flex-end;
+    width: 71.75%;
+}
+
+.page-left {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: #E5E5E5 solid 1px;
+    border-radius: 50%;
+    font-size: 13.2px;
+    margin-right: 6px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.page-right {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: #E5E5E5 solid 1px;
+    border-radius: 50%;
+    font-size: 13.2px;
+    margin-left: 2px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.x:hover {
+    color: white;
+    background-color: #ff782c;
+}
+
+.seventh .dog-product-boxes {
+    display: flex;
+}
+
+.seventh .dog-product-box img {
+    width: 100%;
+    border: #E5E5E5 dashed 1px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.seventh .dog-product-box {
+    width: 20%;
+    padding: 0 15px;
+}
+
+.seventh .dog-product-boxes .dog-product-box span {
+    font-size: 16px;
+    font-weight: 650;
+    color: #6839cc;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.seventh .dog-product-boxes .dog-product-box h3 {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 8px;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.seventh .dog-product-boxes .dog-product-box div i {
+    font-size: 12px;
+    color: #FFCB45;
+    margin-right: 2px;
+}
+
+.seventh .dog-product-boxes .dog-product-box div p {
+    font-size: 12px;
+    font-weight: 370;
+    color: #999999;
+    font-family: "Rubik", sans-serif;
+    margin-left: 6px;
+}
+
+.seventh .dog-product-boxes .dog-product-box div {
+    display: flex;
+}
+
+.seventh .dog-product-boxes .dog-product-box h3:hover {
+    color: #ff782c;
+}
+
+.seventh .dog-product-boxes .dog-product-box:hover img {
+    border: #ff782c dashed 1px;
+}
+
+/* -------------------------------------------------------- */
+/* ---------------- SEVENTH SECTION PART 2 ---------------- */
+/* -------------------------------------------------------- */
+
+.seventh .best-selling-for-cat {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    cursor: default;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+
+.seventh .best-for-cat {
+    font-size: 32px;
+    font-weight: 690;
+    font-family: "Rubik", sans-serif;
+    padding-left: 15px;
+}
+
+.seventh .best-selling-for-cat .fifth-dogpaw-icon {
+    width: 40px;
+    position: absolute;
+    top: 86px;
+    left: 309px;
+}
+
+.seventh .page-btns {
+    display: flex;
+    justify-content: flex-end;
+    width: 71.75%;
+}
+
+.page-left {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: #E5E5E5 solid 1px;
+    border-radius: 50%;
+    font-size: 13.2px;
+    margin-right: 6px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.page-right {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: #E5E5E5 solid 1px;
+    border-radius: 50%;
+    font-size: 13.2px;
+    margin-left: 2px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.x:hover {
+    color: white;
+    background-color: #ff782c;
+}
+
+.seventh .cat-product-boxes {
+    display: flex;
+}
+
+.seventh .cat-product-box img {
+    width: 100%;
+    border: #E5E5E5 dashed 1px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.seventh .cat-product-box {
+    width: 20%;
+    padding: 0 15px;
+}
+
+.seventh .cat-product-boxes .cat-product-box span {
+    font-size: 16px;
+    font-weight: 650;
+    color: #6839cc;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.seventh .cat-product-boxes .cat-product-box h3 {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 8px;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.seventh .cat-product-boxes .cat-product-box div i {
+    font-size: 12px;
+    color: #FFCB45;
+    margin-right: 2px;
+}
+
+.seventh .cat-product-boxes .cat-product-box div p {
+    font-size: 12px;
+    font-weight: 370;
+    color: #999999;
+    font-family: "Rubik", sans-serif;
+    margin-left: 6px;
+}
+
+.seventh .cat-product-boxes .cat-product-box div {
+    display: flex;
+}
+
+.seventh .cat-product-boxes .cat-product-box h3:hover {
+    color: #ff782c;
+}
+
+.seventh .cat-product-boxes .cat-product-box:hover img {
+    border: #ff782c dashed 1px;
+}
+
+/* -------------------------------------------------------- */
+/* -------------------- EIGHTH SECTION -------------------- */
+/* -------------------------------------------------------- */
+
+.eighth {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.eighth .brand-logos-container .shop-by-brands {
+    font-size: 32px;
+    font-weight: 690;
+    font-family: "Rubik", sans-serif;
+}
+
+.eighth .sixth-dogpaw-icon {
+    width: 40px;
+    position: absolute;
+    top: 69px;
+    left: 263px;
+}
+
+.eighth .brand-logos-container .shopbrand-title {
+    padding-bottom: 30px;
+}
+
+.eighth .brand-logos-container {
+    width: 100%;
+    height: auto;
+    padding: 80px 30px 90px;
+    background-color: #F2EAEA;
+}
+
+.eighth .brand-logos {
+    display: flex;
+    cursor: pointer;
+}
+
+.eighth .pet-brand-logo-a {
+    width: 16.66%;
+    height: 160px;
+    background-color: white;
+    border: #e5e5e5 dashed 0.5px;
+}
+
+.eighth .pet-brand-logo-a img {
+    padding: 40px 55px;
+}
+
+
+
+.eighth .pet-brand-logo-b {
+    width: 16.66%;
+    height: 160px;
+    background-color: white;
+    border: #e5e5e5 dashed 0.5px;
+}
+
+.eighth .pet-brand-logo-b img {
+    padding: 40px 60px;
+}
+
+
+
+.eighth .pet-brand-logo-c {
+    width: 16.66%;
+    height: 160px;
+    background-color: white;
+    border: #e5e5e5 dashed 0.5px;
+}
+
+.eighth .pet-brand-logo-c img {
+    padding: 40px 40px;
+}
+
+
+
+.eighth .pet-brand-logo-d {
+    width: 16.66%;
+    height: 160px;
+    background-color: white;
+    border: #e5e5e5 dashed 0.5px;
+}
+
+.eighth .pet-brand-logo-d img {
+    padding: 37.5px 37.5px;
+}
+
+
+
+.eighth .pet-brand-logo-e {
+    width: 16.66%;
+    height: 160px;
+    background-color: white;
+    border: #e5e5e5 dashed 0.5px;
+}
+
+.eighth .pet-brand-logo-e img {
+    padding: 40px 45px;
+}
+
+
+
+.eighth .pet-brand-logo-f {
+    width: 16.66%;
+    height: 160px;
+    background-color: white;
+    border: #e5e5e5 dashed 0.5px;
+}
+
+.eighth .pet-brand-logo-f img {
+    padding: 40px 40px;
+}
+
+
+
+.eighth .pet-brand-logo-g {
+    width: 16.66%;
+    height: 160px;
+    background-color: white;
+    border: #e5e5e5 dashed 0.5px;
+}
+
+.eighth .pet-brand-logo-g img {
+    padding: 40px 50px;
+}
+
+
+
+.eighth .pet-brand-logo-h {
+    width: 16.66%;
+    height: 160px;
+    background-color: white;
+    border: #e5e5e5 dashed 0.5px;
+}
+
+.eighth .pet-brand-logo-h img {
+    padding: 38px 45px;
+}
+
+
+
+.eighth .pet-brand-logo-i {
+    width: 16.66%;
+    height: 160px;
+    background-color: white;
+    border: #e5e5e5 dashed 0.5px;
+}
+
+.eighth .pet-brand-logo-i img {
+    padding: 37.5px 75px;
+}
+
+
+
+.eighth .pet-brand-logo-j {
+    width: 16.66%;
+    height: 160px;
+    background-color: white;
+    border: #e5e5e5 dashed 0.5px;
+}
+
+.eighth .pet-brand-logo-j img {
+    padding: 37.5px 65px;
+}
+
+
+
+.eighth .pet-brand-logo-k {
+    width: 16.66%;
+    height: 160px;
+    background-color: white;
+    border: #e5e5e5 dashed 0.5px;
+}
+
+.eighth .pet-brand-logo-k img {
+    padding: 40px 60px;
+}
+
+
+
+.eighth .pet-brand-logo-l {
+    width: 16.66%;
+    height: 160px;
+    background-color: white;
+    border: #e5e5e5 dashed 0.5px;
+}
+
+.eighth .pet-brand-logo-l img {
+    padding: 40px 55px;
+}
+
+/* -------------------------------------------------------- */
+/* --------------------- NINTH SECTION -------------------- */
+/* -------------------------------------------------------- */
+
+.ninth {
+    width: 100%;
+    height: 132.5vh;
+    padding: 0 15px;
+    cursor: default;
+    overflow: hidden;
+}
+
+.ninth .best-selling-for-fish {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: default;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+
+.ninth .best-for-fish {
+    font-size: 32px;
+    font-weight: 690;
+    font-family: "Rubik", sans-serif;
+    padding-left: 15px;
+}
+
+.ninth .best-selling-for-fish .seventh-dogpaw-icon {
+    width: 40px;
+    position: absolute;
+    top: 86px;
+    left: 320px;
+}
+
+.ninth .page-btns {
+    display: flex;
+    justify-content: flex-end;
+    width: 71.25%;
+}
+
+.page-left {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: #E5E5E5 solid 1px;
+    border-radius: 50%;
+    font-size: 13.2px;
+    margin-right: 6px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.page-right {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: #E5E5E5 solid 1px;
+    border-radius: 50%;
+    font-size: 13.2px;
+    margin-left: 2px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.x:hover {
+    color: white;
+    background-color: #ff782c;
+}
+
+.ninth .fish-product-boxes {
+    display: flex;
+}
+
+.ninth .fish-product-box img {
+    width: 100%;
+    border: #E5E5E5 dashed 1px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.ninth .fish-product-box {
+    width: 20%;
+    padding: 0 15px;
+}
+
+.ninth .fish-product-boxes .fish-product-box span {
+    font-size: 16px;
+    font-weight: 650;
+    color: #6839cc;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.ninth .fish-product-boxes .fish-product-box h3 {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 8px;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.ninth .fish-product-boxes .fish-product-box div i {
+    font-size: 12px;
+    color: #FFCB45;
+    margin-right: 2px;
+}
+
+.ninth .fish-product-boxes .fish-product-box div p {
+    font-size: 12px;
+    font-weight: 370;
+    color: #999999;
+    font-family: "Rubik", sans-serif;
+    margin-left: 6px;
+}
+
+.ninth .fish-product-boxes .fish-product-box div {
+    display: flex;
+}
+
+.ninth .fish-product-boxes .fish-product-box h3:hover {
+    color: #ff782c;
+}
+
+.ninth .fish-product-boxes .fish-product-box:hover img {
+    border: #ff782c dashed 1px;
+}
+
+/* -------------------------------------------------------- */
+/* ----------------- NINTH SECTION PART 2 ----------------- */
+/* -------------------------------------------------------- */
+
+.ninth .recently-viewed-product {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: default;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+
+.ninth .recently-viewed {
+    font-size: 32px;
+    font-weight: 690;
+    font-family: "Rubik", sans-serif;
+    padding-left: 15px;
+}
+
+.ninth .recently-viewed-product .eighth-dogpaw-icon {
+    width: 40px;
+    position: absolute;
+    top: 86px;
+    left: 396px;
+}
+
+.ninth .last-page-btns {
+    display: flex;
+    justify-content: flex-end;
+    width: 65%;
+}
+
+.last-page-left {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: #E5E5E5 solid 1px;
+    border-radius: 50%;
+    font-size: 13.2px;
+    margin-right: 6px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.last-page-right {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: #E5E5E5 solid 1px;
+    border-radius: 50%;
+    font-size: 13.2px;
+    margin-left: 2px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.x:hover {
+    color: white;
+    background-color: #ff782c;
+}
+
+.ninth .recent-productboxes {
+    width: 1203px;
+    height: 160.33px;
+    border: #E5E5E5 dashed 1px;
+    padding: 30px;
+    margin-left: 15px;
+    display: flex;
+
+}
+
+.ninth .recent-productboxes .recent-product {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ninth .recent-productboxes .recent-product img {
+    width: 35.04%;
+    height: 80.82%;
+    margin-right: 19px;
+}
+
+.ninth .recent-productboxes .recent-product div p {
+    font-size: 15px;
+    font-weight: 360;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 6px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.ninth .recent-productboxes .recent-product div span {
+    font-size: 16px;
+    font-weight: 650;
+    color: #6839cc;
+    font-family: "Rubik", sans-serif;
+}
+
+.ninth .recent-productboxes .recent-product div p:hover {
+    color: #ff782c;
+}
+
+/* -------------------------------------------------------- */
+/* ------------------------ FOOTER ------------------------ */
+/* -------------------------------------------------------- */
+
+footer {
+    width: 100%;
+    height: 80.7vh;
+    padding: 90px 30px 40px;
+    border-top: #E5E5E5 dashed 1px;
+    cursor: default;
+}
+
+.footer-top {
+    display: flex;
+}
+
+.footer-middle {
+    display: flex;
+    width: auto;
+}
+
+footer .footer-top .footer-first {
+    width: 335.64px;
+}
+
+footer .footer-top .footer-first .footer-ziggy-logo {
+    margin-bottom: 20px;
+}
+
+footer .footer-top .footer-first p {
+    font-size: 15px;
+    font-weight: 350;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-bottom: 20px;
+}
+
+footer .footer-top .footer-first .hotline-order .phonecall-icon {
+    width: 18.95px;
+    height: 18.95px;
+}
+
+footer .footer-top .footer-first .hotline-order span {
+    font-size: 14px;
+    font-weight: 650;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    padding-left: 10px;
+
+}
+
+footer .footer-top .footer-first .hotline-order {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+footer .footer-top .footer-first h2 {
+    font-size: 19px;
+    font-weight: 660;
+    color: #ff782c;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 25px;
+}
+
+footer .footer-top .footer-first .social-apps {
+    display: flex;
+}
+
+footer .footer-top .footer-first .social-apps .social-link {
+    font-size: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #000000;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    transition: all .2s ease;
+}
+
+footer .footer-top .footer-first .social-apps .social-link:hover {
+    color: white;
+    background-color: #6839CC;
+}
+
+/* -------------------------------------------------------- */
+/* ------------------ FOOTER MIDDLE FIRST ----------------- */
+/* -------------------------------------------------------- */
+
+footer .footer-top .footer-middle .middle-first {
+    width: 196.08px;
+    padding: 0 20px;
+}
+
+footer .footer-top .footer-middle .middle-first h2 {
+    font-size: 14.5px;
+    font-weight: 680;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 32px;
+}
+
+footer .footer-top .footer-middle .middle-first p {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+footer .footer-top .footer-middle .middle-first p:hover {
+    color: #ff782c;
+}
+
+/* -------------------------------------------------------- */
+/* ------------------ FOOTER MIDDLE MID ------------------- */
+/* -------------------------------------------------------- */
+
+footer .footer-top .footer-middle .middle-mid {
+    width: 196.08px;
+    padding: 0 20px;
+}
+
+footer .footer-top .footer-middle .middle-mid h2 {
+    font-size: 14.5px;
+    font-weight: 680;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 32px;
+}
+
+footer .footer-top .footer-middle .middle-mid p {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+footer .footer-top .footer-middle .middle-mid p:hover {
+    color: #ff782c;
+}
+
+/* -------------------------------------------------------- */
+/* ------------------ FOOTER MIDDLE LAST ------------------ */
+/* -------------------------------------------------------- */
+
+footer .footer-top .footer-middle .middle-last {
+    width: 144.35px;
+    padding: 0 20px;
+}
+
+footer .footer-top .footer-middle .middle-last h2 {
+    font-size: 14.5px;
+    font-weight: 650;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 32px;
+}
+
+footer .footer-top .footer-middle .middle-last p {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+footer .footer-top .footer-middle .middle-last p:hover {
+    color: #ff782c;
+}
+
+/* -------------------------------------------------------- */
+/* ---------------------- FOOTER LAST --------------------- */
+/* -------------------------------------------------------- */
+
+footer .footer-top .footer-last {
+    padding-left: 20px;
+}
+
+footer .footer-top .footer-last h2 {
+    font-size: 14.5px;
+    font-weight: 650;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 25px;
+}
+
+footer .footer-top .footer-last p {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-bottom: 15px;
+}
+
+footer .footer-top .footer-last p span {
+    color: #ff782c;
+}
+
+.searchbar {
+    position: relative;
+}
+
+footer .footer-top .footer-last .searchbar input {
+    width: 313.45px;
+    height: 45.33px;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    margin-bottom: 22px;
+}
+
+footer .footer-top .footer-last .searchbar input::placeholder {
+    color: #9d9d9d;
+}
+
+footer .footer-top .footer-last .searchbar button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: #6839cc;
+    border: none;
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+footer .footer-top .footer-last .searchbar button i {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer .footer-top .footer-last .searchbar button:hover {
+    background-color: #ff782c;
+}
+
+footer .footer-top .footer-last .searchbar input:hover {
+    border: #6839cc solid 1px;
+}
+
+footer .footer-top .footer-last .download-app img {
+    width: 14.38px;
+    height: 22.67px;
+}
+
+footer .footer-top .footer-last .download-app span {
+    font-size: 14px;
+    font-weight: 650;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    padding-left: 18px;
+}
+
+footer .footer-top .footer-last .download-app {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    margin-bottom: 22px;
+}
+
+footer .footer-top .footer-last .download-stores {
+    display: flex;
+}
+
+footer .footer-top .footer-last .download-stores img {
+    margin-right: 10px;
+}
+
+/* ------------------------------------------------------- */
+/* -------------------- FOOTER BOTTOM -------------------- */
+/* ------------------------------------------------------- */
+
+.footer-bottom {
+    width: 1203px;
+    height: 67px;
+    display: flex;
+    align-items: flex-end;
+    border-top: #E5E5E5 dashed 1px;
+    margin-top: 55px;
+}
+
+.footer-bottom h6 {
+    font-size: 12.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    display: flex;
+}
+
+.footer-bottom h6 a {
+    color: #000000;
+    transition: all .2s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-bottom h6 i {
+    color: #000000;
+    font-size: 18px;
+    opacity: 0.8;
+    margin: 2px 4px 0;
+}
+
+.footer-bottom h6 a:hover {
+    color: #ff782c;
+}
+
+.footer-bottom img {
+    margin: 0 115px;
+}
+
+.footer-bottom .terms-and-service {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 70px;
+}
+
+.footer-bottom .terms-and-service .privacy {
+    font-size: 12.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-right: 8px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.footer-bottom .terms-and-service .privacy:hover {
+    color: #ff782c;
+}
+
+.footer-bottom .terms-and-service .terms {
+    font-size: 12.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    word-spacing: 0.25px;
+    margin-left: 8px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.footer-bottom .terms-and-service .terms:hover {
+    color: #ff782c;
+}
+
+.footer-bottom .terms-and-service div {
+    width: 1px;
+    height: 12px;
+    background-color: #e5e5e5;
+}
+
+.footer-bottom .bottom-container {
+    display: flex;
+    align-items: center;
+}
