@@ -5,6 +5,28 @@
     cursor: default;
 }
 
+.top-to-scroll {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color:#6839CC;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 99;
+
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+}
+
+.top-to-scroll .fa-chevron-up {
+    font-size: 15px;
+    color: white;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
 /* ------------------------------------------------------- */
 /* ----------------------- HEADER ------------------------ */
 /* ------------------------------------------------------- */
