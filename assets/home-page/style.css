@@ -13,6 +13,7 @@
     border: none;
     outline: none;
     cursor: pointer;
+    transition: all .3s ease;
     z-index: 99;
 
     position: fixed;
@@ -25,6 +26,11 @@
     color: white;
     padding-top: 2px;
     cursor: pointer;
+}
+
+.top-to-scroll:hover {
+    background-color: #ff782c;
+    transform: rotate(360deg);
 }
 
 /* ------------------------------------------------------- */
@@ -138,6 +144,7 @@ header input:focus {
 
 .searchbar button .fa-magnifying-glass {
     color: white;
+    cursor: pointer;
 }
 
 .searchbar button:hover {
@@ -341,9 +348,9 @@ header .notification2 {
     background-color: #ff782c;
 }
 
-/* -------------------------------------------------------- */
-/* ------------------------ SECOND ------------------------ */
-/* -------------------------------------------------------- */
+/* ------------------------------------------------------- */
+/* -------------------- SECOND SECTION ------------------- */
+/* ------------------------------------------------------- */
 
 .second {
     width: 100%;
@@ -356,22 +363,22 @@ header .notification2 {
 
 .second .product-icon {
     width: 16%;
-    height: 48px;
+    height: 40px;
     display: flex;
+    align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-    cursor: pointer;
 }
 
 .second .product-icon p {
     display: flex;
     align-items: center;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 640;
     font-family: "Rubik", sans-serif;
     line-height: 24px;
     padding-top: 7px;
-    padding-left: 10px;
+    padding-left: 14px;
 }
 
 .second-boxes {
@@ -2046,8 +2053,8 @@ footer .footer-top .footer-first p {
 }
 
 footer .footer-top .footer-first .hotline-order .phonecall-icon {
-    width: 18.95px;
-    height: 18.95px;
+    width: 19px;
+    height: 18.9px;
 }
 
 footer .footer-top .footer-first .hotline-order span {
@@ -2088,6 +2095,7 @@ footer .footer-top .footer-first .social-apps .social-link {
     justify-content: center;
     align-items: center;
     margin-right: 12px;
+    cursor: pointer;
     transition: all .2s ease;
 }
 
@@ -2271,8 +2279,9 @@ footer .footer-top .footer-last .searchbar input:hover {
 }
 
 footer .footer-top .footer-last .download-app img {
-    width: 14.38px;
-    height: 22.67px;
+    width: 15px;
+    height: 24px;
+    border-radius: 2px;
 }
 
 footer .footer-top .footer-last .download-app span {

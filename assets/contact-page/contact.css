@@ -32,7 +32,6 @@ nav .find-store {
 nav .find-store img {
     width: 12px;
     height: 14px;
-    cursor: pointer;
 }
 
 nav .find-store h3 {
@@ -41,8 +40,6 @@ nav .find-store h3 {
     font-weight: 370;
     font-family: "Rubik", sans-serif;
     padding-left: 10px;
-    cursor: pointer;
-    transition: all .2s ease;
 }
 
 nav .order-tracking {
@@ -653,8 +650,8 @@ footer .footer-top .footer-first p {
 }
 
 footer .footer-top .footer-first .hotline-order .phonecall-icon {
-    width: 18.95px;
-    height: 18.95px;
+    width: 19px;
+    height: 18.9px;
 }
 
 footer .footer-top .footer-first .hotline-order span {
@@ -695,6 +692,7 @@ footer .footer-top .footer-first .social-apps .social-link {
     justify-content: center;
     align-items: center;
     margin-right: 12px;
+    cursor: pointer;
     transition: all .2s ease;
 }
 
@@ -878,8 +876,9 @@ footer .footer-top .footer-last .searchbar input:hover {
 }
 
 footer .footer-top .footer-last .download-app img {
-    width: 14.38px;
-    height: 22.67px;
+    width: 15px;
+    height: 24px;
+    border-radius: 2px;
 }
 
 footer .footer-top .footer-last .download-app span {

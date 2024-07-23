@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+/* ------------------------------------------------------- */
+/* ------------------------- NAV ------------------------- */
+/* ------------------------------------------------------- */
+
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: #6839CC;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav .tracking-order {
+    display: flex;
+}
+
+nav .find-store {
+    display: flex;
+    align-items: center;
+    padding-right: 32px;
+
+}
+
+nav .find-store img {
+    width: 12px;
+    height: 14px;
+}
+
+nav .find-store h3 {
+    color: white;
+    font-size: 14.5px;
+    font-weight: 370;
+    font-family: "Rubik", sans-serif;
+    padding-left: 10px;
+}
+
+nav .order-tracking {
+    display: flex;
+    align-items: center;
+}
+
+nav .order-tracking img {
+    width: 15px;
+    height: 14px;
+}
+
+nav .order-tracking h3 {
+    color: white;
+    font-size: 14.5px;
+    font-weight: 370;
+    font-family: "Rubik", sans-serif;
+    padding-left: 10px;
+}
+
+nav .buy-online {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 260px;
+}
+
+nav .buy-online div {
+    width: 70.93px;
+    height: 26px;
+    font-size: 14px;
+    font-weight: 550;
+    font-family: "Rubik", sans-serif;
+    color: white;
+    background-color: #ff782c;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav .buy-online p {
+    font-size: 14.5px;
+    font-weight: 370;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+
+nav .currency-and-language {
+    padding-top: 8px;
+}
+
+nav .currency-and-language span {
+    font-size: 14.5px;
+    font-weight: 550;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+nav .currency-and-language span i {
+    font-size: 10px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+nav .currency-and-language span:hover {
+    color: #ff782c;
+}
+
+/* ------------------------------------------------------- */
+/* ------------------------- HEADER ---------------------- */
+/* ------------------------------------------------------- */
+
+header {
+    width: 100%;
+    height: 104.67px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    background-color: white;
+    border-bottom: #E5E5E5 dashed 1px;
+}
+
+.ziggy-logo {
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+header ul {
+    display: flex;
+    padding-left: 55px;
+    margin-right: 52px;
+}
+
+header ul li {
+    list-style-type: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 22px;
+    position: relative;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+header ul li a {
+    color: #000000;
+    text-decoration: none;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+header ul li a:hover {
+    color: #ff782c;
+}
+
+
+header ul li:hover {
+    color: #ff782c;
+}
+
+ul li span {
+    color: #ff782c;
+    cursor: pointer;
+}
+
+ul li .underline {
+    width: 44px;
+    border-bottom: #ff782c solid 1.5px;
+    position: absolute;
+    bottom: 16px;
+}
+
+header ul li .fa-angle-down {
+    font-size: 11px;
+    margin: 0 0 3px 7px;
+}
+
+.searchbar {
+    position: relative;
+}
+
+header .searchbar #search-input {
+    width: 280.29px;
+    height: 46.67px;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    padding: 13px 55px 15px 20px;
+    outline: none;
+    border: none;
+    cursor: text;
+    transition: all .3s ease;
+
+}
+
+header .searchbar #search-input::placeholder {
+    color: #9d9d9d;
+}
+
+header .searchbar #search-input:focus {
+    border: #6839cc 1px solid;
+}
+
+.searchbar button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: #6839cc;
+    border: none;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.searchbar button .fa-magnifying-glass {
+    color: white;
+}
+
+.searchbar button:hover {
+    background-color: #ff782c;
+}
+
+.icon-container {
+    width: 15%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icon-container i {
+    font-size: 20px;
+    padding: 11px;
+    transition: all .2s ease;
+    cursor: pointer;
+
+}
+
+.icon-container i:hover {
+    color: #ff782c;
+}
+
+.icon-container p {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+    padding-left: 4px;
+    transition: all .1s ease;
+    cursor: pointer;
+}
+
+.icon-container p:hover {
+    color: #ff782c;
+}
+
+header .notification1 {
+    width: 18px;
+    height: 18px;
+    font-size: 13px;
+    color: white;
+    background-color: #ff782c;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0;
+    right: 90px;
+
+}
+
+header .notification2 {
+    width: 18px;
+    height: 18px;
+    font-size: 13px;
+    color: white;
+    background-color: #ff782c;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0;
+    right: 47px;
+}
+
+/* -------------------------------------------------------- */
+/* ---------------------- FIRST SECTION ------------------- */
+/* -------------------------------------------------------- */
+
+.first {
+    width: 100%;
+    height: 100vh;
+    padding: 0 30px;
+    margin: 60px 0 60px;
+}
+
+.first sub {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ff782c;
+    font-family: "Rubik", sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.first h2 {
+    font-size: 48px;
+    font-weight: 660;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+.first p {
+    font-size: 14.5px;
+    font-weight: 360;
+    color: #666666;
+    font-family: "Rubik", sans-serif;
+    line-height: 24px;
+    margin-bottom: 45px;
+}
+
+.first .watch-video .video img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.first .watch-video {
+    font-size: 16px;
+    font-weight: 650;
+    color: black;
+    font-family: "Rubik", sans-serif;
+}
+
+.first .watch-video .shop-now {
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #6839cc;
+    font-family: "Rubik", sans-serif;
+    margin-left: 60px;
+    padding-bottom: 1px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.first .watch-video .shop-now i {
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 1px;
+    padding-top: 7px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.first .watch-video .shop-now:hover {
+    background-color: #7D44F5;
+}
+
+.first .watch-video .shop-now:hover i {
+    color: white;
+    background-color: #ff782c;
+    transform: translateX(15px);
+}
